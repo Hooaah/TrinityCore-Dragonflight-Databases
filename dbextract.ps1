@@ -19,7 +19,7 @@ $date = Get-Date -Format "yyyy-MM-dd"
 
 $compress = @{
   Path = "hotfixes.sql", "world.sql", "characters_trigger.sql"
-  CompressionLevel = "Fastest"
+  CompressionLevel = "Optimal"
   DestinationPath = "RetailCoreDB_" + $date + "_tc-" + $tc
 }
 Compress-Archive @compress

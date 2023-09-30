@@ -7,5 +7,6 @@ Release namescheme: $dbname_$releasedate_tc-$tc-commit
 $tc-commit is the needed commit from TrinityCore for the DB.
 
 dbextract.ps1 - for extract the dumps by yourself from RetailCoreDB Discord<br>
+kill_bnet.bat - kills bnet launcher<br>
 macros-cache.txt - contains macros (for GM) for adding Blizzard shop items, tcg, blizzcon, collectors edition, etc<br>
 mk_cdn.sh - download the NGDP CDN files by yourself
